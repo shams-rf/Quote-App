@@ -17,6 +17,8 @@
 		DBF3F3F928647D880097CC1E /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = DBF3F3F728647D880097CC1E /* quotes.json */; };
 		DBF3F3FB286481580097CC1E /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3FA286481580097CC1E /* Quote.swift */; };
 		DBF3F3FC286481580097CC1E /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3FA286481580097CC1E /* Quote.swift */; };
+		DBF3F3FE2864846D0097CC1E /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3FD2864846D0097CC1E /* QuoteModel.swift */; };
+		DBF3F3FF2864846D0097CC1E /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3FD2864846D0097CC1E /* QuoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		DBF3F3E328647B180097CC1E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		DBF3F3F728647D880097CC1E /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
 		DBF3F3FA286481580097CC1E /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		DBF3F3FD2864846D0097CC1E /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		DBF3F3F428647CBE0097CC1E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				DBF3F3FD2864846D0097CC1E /* QuoteModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -228,6 +232,7 @@
 			files = (
 				DBF3F3E628647B180097CC1E /* ContentView.swift in Sources */,
 				DBF3F3FB286481580097CC1E /* Quote.swift in Sources */,
+				DBF3F3FE2864846D0097CC1E /* QuoteModel.swift in Sources */,
 				DBF3F3E428647B180097CC1E /* Quote_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +243,7 @@
 			files = (
 				DBF3F3E728647B180097CC1E /* ContentView.swift in Sources */,
 				DBF3F3FC286481580097CC1E /* Quote.swift in Sources */,
+				DBF3F3FF2864846D0097CC1E /* QuoteModel.swift in Sources */,
 				DBF3F3E528647B180097CC1E /* Quote_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
