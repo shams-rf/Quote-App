@@ -13,6 +13,7 @@ class QuoteModel: ObservableObject {
     
     init() {
         
-        
+        //create instance of DataService and get the data
+        self.quotes = DataService.getLocalData()
     }
 }
