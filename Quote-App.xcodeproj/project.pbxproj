@@ -13,6 +13,8 @@
 		DBF3F3E728647B180097CC1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3D528647B160097CC1E /* ContentView.swift */; };
 		DBF3F3E828647B180097CC1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF3F3D628647B180097CC1E /* Assets.xcassets */; };
 		DBF3F3E928647B180097CC1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF3F3D628647B180097CC1E /* Assets.xcassets */; };
+		DBF3F3F828647D880097CC1E /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = DBF3F3F728647D880097CC1E /* quotes.json */; };
+		DBF3F3F928647D880097CC1E /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = DBF3F3F728647D880097CC1E /* quotes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		DBF3F3DB28647B180097CC1E /* Quote-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quote-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF3F3E128647B180097CC1E /* Quote-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quote-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF3F3E328647B180097CC1E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DBF3F3F728647D880097CC1E /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				DBF3F3D328647B160097CC1E /* Shared */,
+				DBF3F3D628647B180097CC1E /* Assets.xcassets */,
 				DBF3F3E228647B180097CC1E /* macOS */,
 				DBF3F3DC28647B180097CC1E /* Products */,
 			);
@@ -55,8 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				DBF3F3D428647B160097CC1E /* Quote_AppApp.swift */,
-				DBF3F3D528647B160097CC1E /* ContentView.swift */,
-				DBF3F3D628647B180097CC1E /* Assets.xcassets */,
+				DBF3F3F228647CB40097CC1E /* Views */,
+				DBF3F3F428647CBE0097CC1E /* ViewModels */,
+				DBF3F3F328647CB90097CC1E /* Models */,
+				DBF3F3F628647CC90097CC1E /* Data */,
+				DBF3F3F528647CC40097CC1E /* Services */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +83,43 @@
 				DBF3F3E328647B180097CC1E /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		DBF3F3F228647CB40097CC1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3F3D528647B160097CC1E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBF3F3F328647CB90097CC1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DBF3F3F428647CBE0097CC1E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DBF3F3F528647CC40097CC1E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DBF3F3F628647CC90097CC1E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3F3F728647D880097CC1E /* quotes.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF3F3F828647D880097CC1E /* quotes.json in Resources */,
 				DBF3F3E828647B180097CC1E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF3F3F928647D880097CC1E /* quotes.json in Resources */,
 				DBF3F3E928647B180097CC1E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
