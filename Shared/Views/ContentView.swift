@@ -13,9 +13,23 @@ struct ContentView: View {
     
     var body: some View {
         
-        List(model.quotes) { q in
+        NavigationView {
             
-            Text(q.author)
+            List(model.quotes) { q in
+                
+                NavigationLink(destination: {
+                    
+                    DetailView(quote: q)
+                }, label: {
+                    
+                    ZStack {
+                        
+                        Image(q.image)
+                            .resizable()
+                            .scaledToFill()
+                    }
+                })
+            }
         }
     }
 }
