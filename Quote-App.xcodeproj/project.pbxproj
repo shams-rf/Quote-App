@@ -19,6 +19,8 @@
 		DBF3F3FC286481580097CC1E /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3FA286481580097CC1E /* Quote.swift */; };
 		DBF3F3FE2864846D0097CC1E /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3FD2864846D0097CC1E /* QuoteModel.swift */; };
 		DBF3F3FF2864846D0097CC1E /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3FD2864846D0097CC1E /* QuoteModel.swift */; };
+		DBF3F4012864BFDF0097CC1E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F4002864BFDF0097CC1E /* DataService.swift */; };
+		DBF3F4022864BFDF0097CC1E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F4002864BFDF0097CC1E /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,7 @@
 		DBF3F3F728647D880097CC1E /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
 		DBF3F3FA286481580097CC1E /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		DBF3F3FD2864846D0097CC1E /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		DBF3F4002864BFDF0097CC1E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 		DBF3F3F528647CC40097CC1E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				DBF3F4002864BFDF0097CC1E /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -234,6 +238,7 @@
 				DBF3F3FB286481580097CC1E /* Quote.swift in Sources */,
 				DBF3F3FE2864846D0097CC1E /* QuoteModel.swift in Sources */,
 				DBF3F3E428647B180097CC1E /* Quote_AppApp.swift in Sources */,
+				DBF3F4012864BFDF0097CC1E /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +250,7 @@
 				DBF3F3FC286481580097CC1E /* Quote.swift in Sources */,
 				DBF3F3FF2864846D0097CC1E /* QuoteModel.swift in Sources */,
 				DBF3F3E528647B180097CC1E /* Quote_AppApp.swift in Sources */,
+				DBF3F4022864BFDF0097CC1E /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
