@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var model = QuoteModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        List(model.quotes) { q in
+            
+            Text(q.author)
+        }
     }
 }
 
