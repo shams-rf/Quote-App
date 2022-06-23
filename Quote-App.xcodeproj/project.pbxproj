@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB72F7872864C3CB0095DBA5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72F7862864C3CB0095DBA5 /* DetailView.swift */; };
+		DB72F7882864C3CB0095DBA5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72F7862864C3CB0095DBA5 /* DetailView.swift */; };
 		DBF3F3E428647B180097CC1E /* Quote_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3D428647B160097CC1E /* Quote_AppApp.swift */; };
 		DBF3F3E528647B180097CC1E /* Quote_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3D428647B160097CC1E /* Quote_AppApp.swift */; };
 		DBF3F3E628647B180097CC1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3D528647B160097CC1E /* ContentView.swift */; };
@@ -24,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB72F7862864C3CB0095DBA5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		DBF3F3D428647B160097CC1E /* Quote_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote_AppApp.swift; sourceTree = "<group>"; };
 		DBF3F3D528647B160097CC1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBF3F3D628647B180097CC1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				DBF3F3D528647B160097CC1E /* ContentView.swift */,
+				DB72F7862864C3CB0095DBA5 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF3F3E628647B180097CC1E /* ContentView.swift in Sources */,
+				DB72F7872864C3CB0095DBA5 /* DetailView.swift in Sources */,
 				DBF3F3FB286481580097CC1E /* Quote.swift in Sources */,
 				DBF3F3FE2864846D0097CC1E /* QuoteModel.swift in Sources */,
 				DBF3F3E428647B180097CC1E /* Quote_AppApp.swift in Sources */,
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF3F3E728647B180097CC1E /* ContentView.swift in Sources */,
+				DB72F7882864C3CB0095DBA5 /* DetailView.swift in Sources */,
 				DBF3F3FC286481580097CC1E /* Quote.swift in Sources */,
 				DBF3F3FF2864846D0097CC1E /* QuoteModel.swift in Sources */,
 				DBF3F3E528647B180097CC1E /* Quote_AppApp.swift in Sources */,
