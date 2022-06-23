@@ -1,17 +1,33 @@
 [
 {
+    "image":"ambition",
     "author":"Wayne Gretzky",
     "quote":"You miss 100% of the shots you don't take",
     "moreQuotes":["A good hockey player plays where the puck is. A great hockey player plays where the puck is going to be", "When you win, say nothing, when you lose say less", "I get a feeling about where a teammate is going to be. A lot of times, I can turn and pass without even looking"]
 },
 {
+    "image":"reflect",
     "author":"Charles Swindoll",
     "quote":"Life is 10% what happens to me and 90% of how I react to it",
     "moreQuotes":["Anything under God's control is never out of control", "We are all faced with a series of great opportunities brilliantly disguised as impossible situations", "Each day of our lives we make deposits in the memory banks of our children"]
 },
 {
+    "image":"calm",
     "author":"Henry David Thoreau",
     "quote":"Go confidently in the direction of your dreams. Live the life you have imagined",
     "moreQuotes":["Be not simply good, be good for something", "It's not what you look at that matters, it's what you see", "Success usually comes to those who are too busy to be looking for it"]
+},
+{
+    "image":"focus",
+    "author":"Nelson Mandela",
+    "quote":"Education is the most powerful weapon which you can use to change the world",
+    "moreQuotes":["A winner is a dreamer who never gives up", "What counts in life is not the mere fact that we have lived. It is what difference we have made to the lives of others", "It is in your hands, to make a better world for all who live in it"]
+    
+},
+{
+    "image":"reflect2",
+    "author":"Steve Jobs",
+    "quote":"Innovation distinguishes between a leader and a follower",
+    "moreQuotes":["Your time is limited, so don’t waste it living someone else’s life", "Don’t let the noise of others’ opinions drown out your own inner voice", "Stay hungry. Stay foolish"]
 }
 ]
