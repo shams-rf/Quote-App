@@ -15,20 +15,42 @@ struct ContentView: View {
         
         NavigationView {
             
-            List(model.quotes) { q in
+            ScrollView {
                 
-                NavigationLink(destination: {
+                ForEach(model.quotes) { q in
                     
-                    DetailView(quote: q)
-                }, label: {
-                    
-                    ZStack {
+                    NavigationLink(destination: {
                         
-                        Image(q.image)
-                            .resizable()
-                            .scaledToFill()
-                    }
-                })
+                        DetailView(quote: q)
+                    }, label: {
+                        
+                        ZStack {
+                            
+                            Image(q.image)
+                                .resizable()
+                                .scaledToFill()
+                                .cornerRadius(10)
+                            
+                            VStack(alignment: .leading) {
+                                
+                                Text(q.quote)
+                                    .font(.largeTitle)
+                                    .fontWeight(.heavy)
+                                    .foregroundColor(Color.white)
+                                    .multilineTextAlignment(.leading)
+                                    .padding(.horizontal)
+                                
+                                Text("-" + q.author)
+                                    .font(.headline)
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(Color.white)
+                                    .padding()
+                                
+                            }.padding()
+                            
+                        }.padding()
+                    })
+                }.navigationTitle("Quotes")
             }
         }
     }
